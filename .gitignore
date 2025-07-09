@@ -1,0 +1,81 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase
+.firebase/
+.firebaserc
+firebase-debug.log
+firebase-debug.*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Testing
+coverage/
+*.lcov
+.nyc_output/
+
+# Cache directories
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.cache
+.parcel-cache
+
+# Temporary folders
+tmp/
+temp/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Certificate files (if any are generated locally)
+certificates/*.pem
+certificates/*.key
+certificates/*.crt
+
+# Personal backup files
+src/firebase/config.BEN.ts
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Optional: Lock files (uncomment based on your preference)
+# package-lock.json  # Uncomment if using yarn exclusively
+# yarn.lock         # Uncomment if using npm exclusively
